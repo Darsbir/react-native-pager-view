@@ -269,7 +269,17 @@ class PagerViewViewManager : ViewGroupManager<NestedScrollableHost>() {
       view.layout(view.left, view.top, view.right, view.bottom)
     }
   }
+  
+    // Required for rn built in EventEmitter Calls.
+    @ReactMethod
+    public void addListener(String eventName) {
 
+    }
+
+    @ReactMethod
+    public void removeListeners(Integer count) {
+
+    }
   companion object {
     private const val REACT_CLASS = "RNCViewPager"
     private const val COMMAND_SET_PAGE = 1
