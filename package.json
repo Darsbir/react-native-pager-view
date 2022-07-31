@@ -132,6 +132,6 @@
     ]
   },
   "dependencies": {
-    "react-native-builder-bob": "^0.18.3"
+    "react-native-builder-bob": "^0.17.1"
   }
 }
